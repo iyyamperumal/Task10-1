@@ -1,0 +1,38 @@
+* {
+    background-color: #cccccc;
+}
+
+.heading {
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+
+.main-div {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: auto;
+}
+
+.cat {
+    margin: 5px;
+    padding: 1px;
+    gap: 1rem;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 8px 20px 0px rgb(35, 35, 35);
+    ;
+}
+
+@media screen and (min-width:768px) and (max-width:1024) {
+    .cat {
+        width: 300px;
+    }
+
+}
